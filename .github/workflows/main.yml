@@ -2,7 +2,7 @@ name: Daily auto sign-in
 
 on:
   schedule:
-    - cron: '30 22 * * *' # Runs every day at 06:30 UTC+8
+    - cron: '00 23 * * *' # Runs every day at 07:00 UTC+8
   workflow_dispatch: # Allows manual trigger
 
 jobs:
